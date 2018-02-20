@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-
+import { SpFormBuilderModule } from "./sp-form-builder/sp-form-builder.module";
 
 @NgModule({
   declarations: [
@@ -12,7 +12,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    SpFormBuilderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
